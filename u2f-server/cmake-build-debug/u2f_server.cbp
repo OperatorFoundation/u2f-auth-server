@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="u2f_server"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/brandon/u2f-server/u2f-server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/brandon/u2f-server/u2f-server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/brandon/u2f-server/u2f-server/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="u2f_server">
+				<Option output="/Users/brandon/u2f-server/u2f-server/cmake-build-debug/u2f_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brandon/u2f-server/u2f-server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libmicrohttpd/0.9.62_1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 u2f_server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="u2f_server/fast">
+				<Option output="/Users/brandon/u2f-server/u2f-server/cmake-build-debug/u2f_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brandon/u2f-server/u2f-server/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/libmicrohttpd/0.9.62_1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 u2f_server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brandon/u2f-server/u2f-server/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/brandon/u2f-server/comm-2fserver.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/comm-2fserver.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-http.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-http.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-main.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-model.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-model.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-support.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/2fserver-support.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/openvpn-plugin.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/sha1.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/sha1.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/u2fdbt.c">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/u2fdbt.h">
+			<Option target="u2f_server"/>
+		</Unit>
+		<Unit filename="/Users/brandon/u2f-server/u2f-server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

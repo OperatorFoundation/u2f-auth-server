@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brandon/u2f-server/comm-2fserver.c
+stdarg.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+errno.h
+-
+comm-2fserver.h
+/Users/brandon/u2f-server/comm-2fserver.h
+
+/Users/brandon/u2f-server/comm-2fserver.h
+inttypes.h
+-
+

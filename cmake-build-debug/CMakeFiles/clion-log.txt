@@ -1,0 +1,4 @@
+Cannot generate into /Users/brandon/u2f-server2
+It is already used for project /home/brandon/u2f-server2
+
+Please either delete it manually or select another generation directory
