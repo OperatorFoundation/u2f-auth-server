@@ -21,11 +21,11 @@ Install microhttpd
 
 Check out source
 
-    git clone https://github.com/OperatorFoundation/u2f-server.git
+    git clone https://github.com/OperatorFoundation/u2f-auth-server.git
 
 Install U2F authentication backend
 
-    cd u2f-server/u2f-server
+    cd u2f-auth-server/u2f-server
     cmake .
     make
 
